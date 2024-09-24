@@ -9,11 +9,11 @@ class BankCustomer {
         this.codeCB = codeCB;
     }
 
-    getName():string{
+    public getName():string{
         return this.name;
     }
 
-    verifyPinInput(secretCode: string):boolean{
+    public verifyPinInput(secretCode: string):boolean{
         if(secretCode === this.codeCB){
             return true;
         }else{
