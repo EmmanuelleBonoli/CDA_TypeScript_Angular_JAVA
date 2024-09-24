@@ -29,4 +29,4 @@ assert.equal(typeof customer.getName, 'function');
 assert.equal(typeof customer.verifyPinInput, 'function');
 assert.equal(customer.getName(), 'John Doe');
 assert.ok(customer.verifyPinInput('3579'));
-console.log("tests passeeeeed !")
+console.log("tests passeeeeed !!!")
